@@ -1,0 +1,70 @@
+clientId: "clientId"
+guildId: "guildId"
+token: "token"
+
+# the roles that can be auto translated in channels
+autoTranslateRoles:
+  - "roleId"
+  - "roleId"
+  - "roleId"
+
+# notification channels
+notifyChannels:
+  moderator: "channelId"
+  bot: "channelId"
+  error: "channelId"
+
+# all supported languages
+languages:
+  eng: "en"
+  cmn: "zh"
+  kor: "ko"
+  jpn: "ja"
+  fra: "fr"
+  deu: "de"
+  spa: "es"
+  rus: "ru"
+  vie: "vi"
+
+# channels
+channels:
+  # for each group, put the 1st choice at the very beginning position
+  eng:
+    - "channelId"
+    - "channelId"
+    - "channelId"
+
+  cmn:
+    - "channelId"
+    - "channelId"
+    - "channelId"
+
+  kor:
+    - "channelId"
+
+  jpn:
+    - "channelId"
+
+  fra:
+    - "channelId"
+
+  spa:
+    - "channelId"
+
+  deu:
+    - "channelId"
+
+  rus:
+    - "channelId"
+
+  bul:
+    - "channelId"
+
+  vie:
+    - "channelId"
+
+  other: "channelId"
+
+# google cloud
+googleCloud:
+  projectId: "projectId"

@@ -1,3 +1,8 @@
+config.yaml
+google.application.credentials.json
+
+.idea/
+
 # Logs
 logs
 *.log
