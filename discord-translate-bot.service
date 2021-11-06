@@ -1,0 +1,13 @@
+[Unit]
+Description=Discord Translate BOT
+
+[Service]
+WorkingDirectory=/prod/discord-translate-bot/
+ExecStart=/usr/bin/node /prod/discord-translate-bot/index.js
+TimeoutSec=10
+Restart=Always
+RestartSec=3
+User=apodpm
+
+[Install]
+WantedBy=multi-user.target
