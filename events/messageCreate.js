@@ -8,12 +8,9 @@ const execute = async function (message) {
     if (message.author.bot) return;
     if (message.guild.id !== config['guildId']) return;
 
-    if (message.content.trim().toLowerCase().startsWith('!translate')) {
-        await messageTranslate(message)
-        return;
+    if (!await messageTranslate(message)) {
+        await messageLanguageReply(message)
     }
-
-    await messageLanguageReply(message)
 }
 
 module.exports = {
